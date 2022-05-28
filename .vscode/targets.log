@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun May 22 17:28:29 2022
+# Make data base, printed on Sat May 28 10:39:28 2022
 
 # Variables
 
@@ -23,7 +23,7 @@ SRC = drw.c dwm.c util.c
 # makefile (from 'config.mk', line 19)
 FREETYPEINC = /usr/include/freetype2
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-43f8f0c0-e104-4e5d-ab93-6bf45393cfb2.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a0526912-76cf-4427-8c8c-1540199bb26b.sock
 # environment
 VSCODE_CWD = /home/david
 # environment
@@ -39,7 +39,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/david/Files/Projects/untitled_void_project/dwm
+PWD = /home/david/Files/Data/github/dwm
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -67,11 +67,11 @@ XAUTHORITY = /home/david/.Xauthority
 # makefile
 MAKEFLAGS = pqrR
 # makefile
-CURDIR := /home/david/Files/Projects/untitled_void_project/dwm
+CURDIR := /home/david/Files/Data/github/dwm
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # makefile (from 'config.mk', line 2)
@@ -89,7 +89,7 @@ MAKEFILE_LIST := Makefile config.mk
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 57303
+VSCODE_PID = 3544
 # environment
 XDG_SESSION_TYPE = tty
 # automatic
@@ -99,7 +99,7 @@ XDG_SESSION_TYPE = tty
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-N75kEomODM,guid=065835059739342976a0a732628a4901
+DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-MPQL1vdHle,guid=3883010a8b7bca502db882636291beef
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
@@ -115,7 +115,7 @@ SHLVL = 4
 # environment
 MAKELEVEL := 0
 # environment
-DBUS_SESSION_BUS_PID = 834
+DBUS_SESSION_BUS_PID = 757
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
@@ -133,7 +133,7 @@ PREFIX = /usr/local
 # environment
 XDG_CONFIG_HOME = /home/david/.config/
 # environment
-INVOCATION_ID = 8ce6635a0d98406c874c4ebe85680700
+INVOCATION_ID = fd5f9fb4f7d345209c93e0f52fa2f810
 # makefile (from 'config.mk', line 24)
 INCS = -I${X11INC} -I${FREETYPEINC}
 # environment
@@ -161,7 +161,7 @@ XDG_VTNR = 1
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 718
+SYSTEMD_EXEC_PID = 664
 # environment
 DISPLAY = :0
 # environment
@@ -223,7 +223,7 @@ XINERAMALIBS = -lXinerama
 
 # Directories
 
-# . (device 66312, inode 6423205): 21 files, no impossibilities.
+# . (device 66307, inode 23724992): 21 files, no impossibilities.
 
 # 21 files, no impossibilities in 1 directories.
 
@@ -263,7 +263,7 @@ dwm: drw.o dwm.o util.o
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-22 17:28:25.316020008
+#  Last modified 2022-05-28 10:39:24.669737869
 #  File has been updated.
 #  Successfully updated.
 
@@ -279,6 +279,7 @@ util.o: config.h config.mk
 
 uninstall:
 #  Phony target (prerequisite of .PHONY).
+ 
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
@@ -295,7 +296,6 @@ clean:
 	rm -f dwm ${OBJ} dwm-${VERSION}.tar.gz
 
 # Not a target:
- 
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -319,7 +319,7 @@ all: options dwm
 # Not a target:
 config.mk:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-22 17:28:25.316020008
+#  Last modified 2022-05-28 10:39:24.679737868
 #  File has been updated.
 #  Successfully updated.
 
@@ -399,6 +399,6 @@ options:
 # strcache performance: lookups = 74 / hit rate = 50%
 # hash-table stats:
 # Load=37/8192=0%, Rehash=0, Collisions=0/74=0%
-# Finished Make data base on Sun May 22 17:28:29 2022
+# Finished Make data base on Sat May 28 10:39:28 2022
 
  
